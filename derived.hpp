@@ -5,18 +5,21 @@
 #ifndef DERIVED_HPP
 #define DERIVED_HPP
 
-class Cash : public Money
+#include<memory.h>
+
+class Cash : Money
 {
 public:
 	void spendMoney(const int & amount) const override;
 };
 
-class DebitCard : public Money
+class DebitCard : Money
 {
 public:
 	void spendMoney(const int& amount) const override;
 private:
-	Cash* cash_ptr;
+	std::unique_ptr<Cash> cash_ptr;
+	bool credibilityCheck(const int& amount) const;
 };
 
 #endif

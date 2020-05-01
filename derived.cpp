@@ -9,10 +9,24 @@ using std::endl;
 
 void Cash::spendMoney(const int& amount) const
 {
-	cout << "You paid $" << amount << " for a brand new car." << endl;
+	cout << "You paid $" << amount << " for some thingamajig." << endl;
 }
 
 void DebitCard::spendMoney(const int& amount) const
 {
-	cout << "You paid $" << amount << " for a brand new car." << endl;
+	if (this->credibilityCheck(amount))
+	{
+		cout << "This withdrawal seems like a legitimate amount." << endl;
+		this->cash_ptr->spendMoney(amount);
+	}
+}
+
+bool DebitCard::credibilityCheck(const int& amount) const
+{
+	if (amount > 500)
+	{
+		cout << "This is a suspiciously large sum of money." << endl;
+		return false;
+	}
+	return true;
 }
