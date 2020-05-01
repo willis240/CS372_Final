@@ -9,5 +9,15 @@ using std::endl;
 
 int main()
 {
-	cout << "Hello, world!" << endl;
+	Cash directWithdrawal;
+	directWithdrawal.spendMoney(505);
+	
+	DebitCard proxyWithdrawal;
+	proxyWithdrawal.spendMoney(505);
+
+	Cash directWithdrawal2;
+	directWithdrawal2.spendMoney(60);
+
+	DebitCard proxyWithdrawal2;
+	proxyWithdrawal2.spendMoney(60);
 }
