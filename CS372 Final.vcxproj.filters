@@ -20,7 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="proxy.hpp">
+    <ClInclude Include="derived.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

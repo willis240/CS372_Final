@@ -141,7 +141,8 @@
     <ClCompile Include="proxy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="proxy.hpp" />
+    <ClInclude Include="derived.hpp" />
+    <ClInclude Include="subject.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

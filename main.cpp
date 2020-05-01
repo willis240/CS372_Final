@@ -1,8 +1,9 @@
-//proxy.cpp
+//main.cpp
 //William Fisher
 //Apr. 30, 2020
 
-#include<iostream>
+#include "subject.hpp"
+#include "derived.hpp"
 using std::cout;
 using std::endl;
 
