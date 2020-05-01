@@ -7,10 +7,10 @@
 
 #include<iostream>
 
-class Subject 
+class Money 
 {
 public:
-	virtual void takeMoney() const = 0;
+	virtual void spendMoney(const int & amount) const = 0;
 };
 
 #endif
