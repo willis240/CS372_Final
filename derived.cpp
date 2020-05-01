@@ -1,6 +1,6 @@
 //derived.cpp
 //William Fisher
-//Apr. 30, 2020
+//May 1, 2020
 
 #include "money.hpp"
 #include "derived.hpp"

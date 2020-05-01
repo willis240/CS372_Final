@@ -1,6 +1,6 @@
 //derived.hpp
 //William Fisher
-//Apr. 30, 2020
+//May 1, 2020
 
 #ifndef DERIVED_HPP
 #define DERIVED_HPP

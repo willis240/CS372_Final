@@ -1,6 +1,6 @@
 //Money.hpp
 //William Fisher
-//Apr. 30, 2020
+//May 1, 2020
 
 #ifndef MONEY_HPP
 #define MONEY_HPP
