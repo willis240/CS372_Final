@@ -18,7 +18,7 @@
     <ClInclude Include="derived.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="subject.hpp">
+    <ClInclude Include="money.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

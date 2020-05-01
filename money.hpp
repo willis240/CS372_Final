@@ -1,9 +1,9 @@
-//subject.hpp
+//Money.hpp
 //William Fisher
 //Apr. 30, 2020
 
-#ifndef SUBJECT_HPP
-#define SUBJECT_HPP
+#ifndef MONEY_HPP
+#define MONEY_HPP
 
 #include<iostream>
 

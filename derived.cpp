@@ -2,7 +2,7 @@
 //William Fisher
 //Apr. 30, 2020
 
-#include "subject.hpp"
+#include "money.hpp"
 #include "derived.hpp"
 using std::cout;
 using std::endl;
